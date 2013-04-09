@@ -24,3 +24,7 @@ group :test do
   gem 'rb-notifu', '0.0.4'
   gem 'win32console', '1.3.0'
 end 
+
+group :production do
+  gem 'pg', '0.12.2'
+end
